@@ -1,0 +1,153 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
+html, body {
+height: 100%;
+margin: 0px;
+}
+
+h1 {
+margin: 0;
+font-size: 19px;
+float: left;
+color: #FFA800;
+text-shadow: 0px -1px 2px black;
+}
+
+.header {
+background: #232427;
+/*margin: 0;*/
+/*padding: 5px 15px;*/
+/*overflow: auto;*/
+border-bottom: 2px solid #FFA800;
+}
+
+.d-flex .son{
+  display: flex;
+  align-items: flex-end;
+}
+
+/*LISTS*/
+li {
+  list-style-type: none;
+}
+
+ul {
+  padding: 0;
+}
+
+/*ADMIN HEADER INLINE*/
+.admin_head {
+  display: inline;
+  padding: 5px;
+  border: 1px solid #FFA800;
+  margin: 1px;
+  color: #FFFFFF;
+  box-shadow: 0px 1px 3px rgba(0,0,0);
+  border-radius: 2px;
+  margin-top: -5px;
+  text-shadow: 0px -1px 2px black;
+}
+
+.header_ui {
+  float: right;
+  border: 2px solid #FFA800;
+}
+
+a {
+  text-decoration: none;
+  color: #ddd;
+}
+
+/*MAIN UI OPTIONS HOLDER*/
+.admin_options_and_overview {
+  border: 1px solid trans;
+  display: flex;
+  height: 91%;
+}
+
+.left_border_box {
+  border: 1px solid trans;
+  border-right: 1px solid;
+  width: 20%;
+  height: 900px;
+  background: #232427;
+}
+
+.right_border_box {
+  border: 1px solid trans;
+  width: 100%;
+}
+
+/*ADMIN LIST / OPTIONS*/
+.admin_options {
+  padding: 15px;
+  text-shadow: 0px -1px 2px black;
+  border-top: 1px solid;
+}
+
+.admin_options:hover {
+  background: #1d1d1d;
+  padding: 15px;
+  border-left: 4px solid #FFA800;
+  box-shadow: 0px 0px 4px black;
+}
+
+.counter {
+  border: 2px solid red;
+  background: red;
+  color: white;
+  padding: 5px 8px;
+  border-radius: 8pc;
+  font-size: 10px;
+  text-align: center;
+  overflow: auto;
+}
+
+#dynamicContent {
+  width: 100%;
+  height: 500px;
+}
+
+.category {
+  width: 100%;
+  color: white;
+  background-color: #232427;
+  height: 50px;
+  border: 0.5px solid #FFA800;
+}
+.dropdownOptions {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  border: 0.5px solid #0000;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  width: 100%;
+  overflow: auto;
+  box-shadow: 0px 10px 10px 0px rgba(0,0,0,0.4);
+  z-index: 1;
+}
+.dropdownOptions:hover .dropdown-content {
+  z-index: 2;
+  display: block;
+}
+.dropdown-content a {
+  display: block;
+  color: #ddd;
+  padding: 5px;
+  text-decoration: none;
+  background-color: #232427;
+  border: 1px solid trans;
+  border-left: 3px solid #FFA800;
+}
+.dropdown-content a:hover {
+  color: #FFFFFF;
+  background-color: #FFA800;
+}

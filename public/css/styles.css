@@ -1,0 +1,99 @@
+
+.w-5 {display:none;}
+
+.hidden.sm\:flex-1.sm\:flex.sm\:items-center.sm\:justify-between {
+	display: none; /* Ocultar el div */
+}
+
+#content > div > div > div > div > nav {
+    display: none;
+}
+
+.border-red {
+	border: 2px solid red;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: red;
+	color: white;
+}
+
+.border-yellow {
+	border: 2px solid yellow;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: yellow;
+}
+
+.border-green {
+	border: 2px solid #4dff00;
+	padding: 2px 4px;
+	border-radius: 4px;
+	background-color: #4dff00;
+	color: white;
+}
+
+.panel-color-background-a {
+	background-color: black;
+}
+.panel-color-background-v {
+	background-color: red;
+}
+.panel-color-background-o {
+	background-color: gray;
+}
+
+a.btn.btn-login-index {
+    margin-right: 10px;
+    background-color: #dd0012; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    padding: 5px 10px; /* Relleno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Display inline-block */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones */
+}
+
+a.btn.btn-login-index:hover {
+    background-color: #ffffff;
+	color: #dd0012; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+a.btn.btn-panel-index {
+    background-color: #000000; /* Color de fondo */
+    color: white; /* Color del texto */
+    font-weight: bold; /* Negrita */
+    padding: 5px 10px; /* Relleno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Sin subrayado */
+    display: inline-block; /* Display inline-block */
+    transition: background-color 0.3s, box-shadow 0.3s; /* Transiciones */
+}
+
+a.btn.btn-panel-index:hover {
+    background-color: #ffffff;
+	color: #000000; /* Color de fondo al pasar el mouse */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra al pasar el mouse */
+}
+
+/* Estilos personalizados para la tabla */
+.table-maquinado-smaller {
+    font-size: 0.8rem; /* Tamaño de fuente más pequeño */
+}
+
+.table-maquinado-smaller th, .table-maquinado-smaller td {
+    padding: 0.3rem; /* Espaciado interno más pequeño */
+}
+
+.table-maquinado-smaller thead th {
+    font-size: 0.8rem; /* Tamaño de la fuente en los encabezados más pequeño */
+}
+
+.table-maquinado-smaller tfoot th {
+    font-size: 0.8rem; /* Tamaño de la fuente en el pie de la tabla más pequeño */
+}
+
+.table-maquinado-smaller td {
+    font-size: 0.7rem; /* Tamaño de la fuente en las celdas más pequeño */
+}
